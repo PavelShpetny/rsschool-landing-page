@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coffee House</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,600&amp;display=swap"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/theme.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <a
+          class="logo"
+          href="./index.html"
+          aria-label="Coffee House — Home"
+        >
+          <img
+            class="logo-image logo-image-dark"
+            src="./assets/icons/logo-dark.svg"
+            alt=""
+          >
+          <img
+            class="logo-image logo-image-light"
+            src="./assets/icons/logo-light.svg"
+            alt=""
+          >
+        </a>
+
+        <nav class="main-navigation" aria-label="Main navigation">
+          <ul class="navigation-list">
+            <li>
+              <a href="./index.html#favorites">Favorite coffee</a>
+            </li>
+            <li>
+              <a href="./index.html#about">About</a>
+            </li>
+            <li>
+              <a href="./index.html#mobile-app">Mobile app</a>
+            </li>
+            <li>
+              <a href="./index.html#contacts">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch color theme"
+            aria-pressed="false"
+          >
+            <span class="theme-option theme-option-light">
+              <img src="./assets/icons/sun.svg" alt="">
+            </span>
+
+            <span class="theme-option theme-option-dark">
+              <img src="./assets/icons/moon.svg" alt="">
+            </span>
+          </button>
+
+          <a class="menu-link" href="./menu.html">
+            <span>Menu</span>
+            <img src="./assets/icons/coffee-cup.svg" alt="">
+          </a>
+
+          <button
+            class="burger-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+          >
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+      </section>
+
+      <section class="favorites" id="favorites">
+      </section>
+
+      <section class="about" id="about">
+      </section>
+
+      <section class="mobile-app" id="mobile-app">
+      </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+    </footer>
+  </body>
+</html>
