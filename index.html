@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/theme.js" defer></script>
+  <script src="./js/menu.js" defer></script>
+  <script src="./js/slider.js" defer></script>
 </head>
 
 <body>
@@ -63,6 +65,20 @@
         </button>
       </div>
     </div>
+
+    <nav class="mobile-navigation" aria-label="Mobile navigation">
+      <ul class="mobile-navigation-list">
+        <li><a href="#favorites">Favorite coffee</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#mobile-app">Mobile app</a></li>
+        <li><a href="#contacts">Contact us</a></li>
+      </ul>
+
+      <a class="mobile-menu-link" href="./menu.html">
+        <span>Menu</span>
+        <img src="./assets/icons/coffee-cup.svg" alt="">
+      </a>
+    </nav>
   </header>
 
   <main>
@@ -241,57 +257,58 @@
         <img src="./assets/images/mobile-screens.png" alt="Resource application displayed on two smartphones">
       </div>
     </section>
+  </main>
 
-    <footer class="footer" id="contacts">
-      <div class="footer-offer">
-        <h2 class="footer-title">
-          Sip, Savor, Smile.
-          <span>It’s coffee time!</span>
-        </h2>
+  <footer class="footer" id="contacts">
+    <div class="footer-offer">
+      <h2 class="footer-title">
+        Sip, Savor, Smile.
+        <span>It’s coffee time!</span>
+      </h2>
 
-        <ul class="social-list">
-          <li>
-            <a class="social-link" href="#" aria-label="Twitter">
-              <img src="./assets/icons/twitter.svg" alt="">
-            </a>
-          </li>
-
-          <li>
-            <a class="social-link" href="#" aria-label="Instagram">
-              <img src="./assets/icons/instagram.svg" alt="">
-            </a>
-          </li>
-
-          <li>
-            <a class="social-link" href="#" aria-label="Facebook">
-              <img src="./assets/icons/facebook.svg" alt="">
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-contacts">
-        <h3 class="contacts-title">Contact us</h3>
-
-        <address class="contacts-list">
-          <a class="contact-link" href="https://maps.google.com/?q=8558+Green+Rd,+Los+Angeles" target="_blank"
-            rel="noopener noreferrer">
-            <img src="./assets/icons/location.svg" alt="">
-            <span>8558 Green Rd., LA</span>
+      <ul class="social-list">
+        <li>
+          <a class="social-link" href="#" aria-label="Twitter">
+            <img src="./assets/icons/twitter.svg" alt="">
           </a>
+        </li>
 
-          <a class="contact-link" href="tel:+16035550123">
-            <img src="./assets/icons/phone.svg" alt="">
-            <span>+1 (603) 555-0123</span>
+        <li>
+          <a class="social-link" href="#" aria-label="Instagram">
+            <img src="./assets/icons/instagram.svg" alt="">
           </a>
+        </li>
 
-          <p class="contact-item">
-            <img src="./assets/icons/clock.svg" alt="">
-            <span>Mon–Sat: 9:00 AM – 23:00 PM</span>
-          </p>
-        </address>
-      </div>
-    </footer>
+        <li>
+          <a class="social-link" href="#" aria-label="Facebook">
+            <img src="./assets/icons/facebook.svg" alt="">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-contacts">
+      <h3 class="contacts-title">Contact us</h3>
+
+      <address class="contacts-list">
+        <a class="contact-link" href="https://maps.google.com/?q=8558+Green+Rd,+Los+Angeles" target="_blank"
+          rel="noopener noreferrer">
+          <img src="./assets/icons/location.svg" alt="">
+          <span>8558 Green Rd., LA</span>
+        </a>
+
+        <a class="contact-link" href="tel:+16035550123">
+          <img src="./assets/icons/phone.svg" alt="">
+          <span>+1 (603) 555-0123</span>
+        </a>
+
+        <p class="contact-item">
+          <img src="./assets/icons/clock.svg" alt="">
+          <span>Mon–Sat: 9:00 AM – 23:00 PM</span>
+        </p>
+      </address>
+    </div>
+  </footer>
 </body>
 
 </html>
